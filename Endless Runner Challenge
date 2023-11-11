@@ -1,0 +1,25 @@
+import random
+
+def endless_runner_challenge():
+obstacles = ["rock", "tree", "puddle", "fence", "bush", "log"]
+distance = 0
+
+print("Welcome to Endless Runner Challenge!")
+print("Dodge the obstacles and see how far you can run.")
+
+while True:
+obstacle = random.choice(obstacles)
+user_input = input("An obstacle appears in front of you. Type 'jump' or 'slide' to avoid it: ").lower()
+if (obstacle == "rock" or obstacle == "tree" or obstacle == "fence") and user_input == "jump":
+print("You jumped over the obstacle!")
+elif (obstacle == "puddle" or obstacle == "bush" or obstacle == "log") and user_input == "slide":
+print("You slid under the obstacle!")
+else:
+print(f"Oops! You hit the {obstacle}. Game over!")
+print("You ran a distance of", distance, "m.")
+break
+
+distance += 10
+print("You have run a distance of", distance, "m. Keep going!")
+
+endless_runner_challenge()
