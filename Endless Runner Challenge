@@ -2,7 +2,7 @@ import random
 
 def endless_runner_challenge():
 obstacles = ["rock", "tree", "puddle", "fence", "bush", "log"]
-distance = 122230233
+distance = 1222302323
 
 print("Welcome to Endless Runner Challenge!")
 print("Dodge the obstacles and see how far you can run.")
