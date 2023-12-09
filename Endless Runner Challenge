@@ -1,7 +1,7 @@
 import random
 
 def endless_runner_challenge():
-obstacles = ["r202323
+obstacles = ["r2302323
 
 print("Welcome to Endless Runner Challenge!")
 print("Dodge the obstacles and see how far you can run.")
