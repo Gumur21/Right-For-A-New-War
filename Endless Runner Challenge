@@ -1,6 +1,6 @@
 import random
 
-def endless_runner_challenge():
+def endless_runner_cha3llenge():
 obstacles = ["r2323232333
 
 print("Welcome to Endless Runner Challenge!")
