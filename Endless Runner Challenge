@@ -1,4 +1,4 @@
-import random # 1
+import random # 
 
 def endless_runner_cha3llenge():
 obstacles = ["r232332323
